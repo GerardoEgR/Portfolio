@@ -16,19 +16,10 @@ function App() {
         <Header />
         <Nav />
         <About />
-        <Services/>
+        <Services />
         <Work />
         <Footer />
-
-          {/* <div className='p-24'>
-            <h1 className='text-white text-6xl font-bold'>Hey there! I'm Gerardo</h1>
-            <p className='text-white text-xl'>I'm a Full Stack Developer</p>
-          </div>
-          <div className='hidden xl:flex xl:max-w-none'>
-            <img src={principal} width={985} height={496} className='rounded-full border-solid border-4 border-stone-500' alt='' />
-          </div> */}
       </div>
-      {/* <div className='h-[4000px]'></div> */}
     </>
   )
 }
