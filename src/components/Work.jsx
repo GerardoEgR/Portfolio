@@ -1,8 +1,9 @@
-import { BiLogoBootstrap, BiLogoCss3, BiLogoHtml5, BiLogoJava, BiLogoJavascript, BiLogoReact, BiLogoSpringBoot, BiLogoTailwindCss } from 'react-icons/bi'
+import { BiLogoBootstrap, BiLogoCss3, BiLogoHtml5, BiLogoJava, BiLogoJavascript, BiLogoPostgresql, BiLogoReact, BiLogoSpringBoot, BiLogoTailwindCss } from 'react-icons/bi'
 import { BsEye, BsGithub } from 'react-icons/bs'
 import work1 from '../assets/work-1.jpeg'
 import work2 from '../assets/work-2.jpeg'
 import work3 from '../assets/work-3.jpeg'
+import work4 from '../assets/work-4.jpeg'
 
 
 const Work = () => {
@@ -43,7 +44,7 @@ const Work = () => {
                 className='mt-4 ms-4 grid grid-cols-3 gap-3 text-sm leading-6 text-gray-600 sm:grid-cols-12 sm:gap-6'
               >
                 <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
-                  <a href='https://github.com/GerardoEgR/moviesPediaPage.git' target='_blank' className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]' rel="noreferrer">
+                  <a href='https://github.com/GerardoEgR/moviesPediaPage.git' target='_blank' className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]' rel='noreferrer'>
                     <BsGithub className='h-8 w-auto flex-none text-gray-500 hover:text-gray-300' />
                   </a>
                 </li>
@@ -138,8 +139,8 @@ const Work = () => {
               >
                 <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
                   <a className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'  >
-                    <svg className='h-16 w-auto flex-none p-2 mr-4 rounded-md border border-sky-500' fill='#0ea5e9' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><defs><linearGradient id="a" x1="882.997" x2="638.955" y1="27.113" y2="866.902" gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#0ea5e9" /><stop offset="1" stopColor="#0ea5e9" /></linearGradient><linearGradient id="b" x1="1001.68" x2="790.326" y1="652.45" y2="1094.91" gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#0ea5e9" /><stop offset="1" stopColor="#0ea5e9" stopOpacity="0" /></linearGradient></defs>
-                      <path fill="url(#a)" d="M81.504 9.465c.973 1.207 1.469 2.836 2.457 6.09l21.656 71.136a90.079 90.079 0 0 0-25.89-8.765L65.629 30.28a1.833 1.833 0 0 0-3.52.004L48.18 77.902a90.104 90.104 0 0 0-26.003 8.778l21.758-71.14c.996-3.25 1.492-4.876 2.464-6.083a8.023 8.023 0 0 1 3.243-2.398c1.433-.575 3.136-.575 6.535-.575H71.72c3.402 0 5.105 0 6.543.579a7.988 7.988 0 0 1 3.242 2.402Zm0 0" /><path fill="#0ea5e9" d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137-10.07 0-18.515-3.137-20.754-7.356-.8 2.418-.98 5.184-.98 6.954 0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938 2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41 15.55 15.55 0 0 0-.734-4.735Zm0 0" /><path fill="url(#b)" d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137-10.07 0-18.515-3.137-20.754-7.356-.8 2.418-.98 5.184-.98 6.954 0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938 2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41 15.55 15.55 0 0 0-.734-4.735Zm0 0" /></svg>
+                    <svg className='h-16 w-auto flex-none p-2 mr-4 rounded-md border border-sky-500' fill='#0ea5e9' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><defs><linearGradient id='a' x1='882.997' x2='638.955' y1='27.113' y2='866.902' gradientTransform='scale(.1)' gradientUnits='userSpaceOnUse'><stop offset='0' stopColor='#0ea5e9' /><stop offset='1' stopColor='#0ea5e9' /></linearGradient><linearGradient id='b' x1='1001.68' x2='790.326' y1='652.45' y2='1094.91' gradientTransform='scale(.1)' gradientUnits='userSpaceOnUse'><stop offset='0' stopColor='#0ea5e9' /><stop offset='1' stopColor='#0ea5e9' stopOpacity='0' /></linearGradient></defs>
+                      <path fill='url(#a)' d='M81.504 9.465c.973 1.207 1.469 2.836 2.457 6.09l21.656 71.136a90.079 90.079 0 0 0-25.89-8.765L65.629 30.28a1.833 1.833 0 0 0-3.52.004L48.18 77.902a90.104 90.104 0 0 0-26.003 8.778l21.758-71.14c.996-3.25 1.492-4.876 2.464-6.083a8.023 8.023 0 0 1 3.243-2.398c1.433-.575 3.136-.575 6.535-.575H71.72c3.402 0 5.105 0 6.543.579a7.988 7.988 0 0 1 3.242 2.402Zm0 0' /><path fill='#0ea5e9' d='M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137-10.07 0-18.515-3.137-20.754-7.356-.8 2.418-.98 5.184-.98 6.954 0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938 2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41 15.55 15.55 0 0 0-.734-4.735Zm0 0' /><path fill='url(#b)' d='M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137-10.07 0-18.515-3.137-20.754-7.356-.8 2.418-.98 5.184-.98 6.954 0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938 2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41 15.55 15.55 0 0 0-.734-4.735Zm0 0' /></svg>
                   </a>
                 </li>
                 <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
@@ -208,8 +209,8 @@ const Work = () => {
               >
                 <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
                   <a className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'  >
-                    <svg className='h-16 w-auto flex-none p-2 mr-4 rounded-md border border-sky-500' fill='#0ea5e9' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><defs><linearGradient id="a" x1="882.997" x2="638.955" y1="27.113" y2="866.902" gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#0ea5e9" /><stop offset="1" stopColor="#0ea5e9" /></linearGradient><linearGradient id="b" x1="1001.68" x2="790.326" y1="652.45" y2="1094.91" gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#0ea5e9" /><stop offset="1" stopColor="#0ea5e9" stopOpacity="0" /></linearGradient></defs>
-                      <path fill="url(#a)" d="M81.504 9.465c.973 1.207 1.469 2.836 2.457 6.09l21.656 71.136a90.079 90.079 0 0 0-25.89-8.765L65.629 30.28a1.833 1.833 0 0 0-3.52.004L48.18 77.902a90.104 90.104 0 0 0-26.003 8.778l21.758-71.14c.996-3.25 1.492-4.876 2.464-6.083a8.023 8.023 0 0 1 3.243-2.398c1.433-.575 3.136-.575 6.535-.575H71.72c3.402 0 5.105 0 6.543.579a7.988 7.988 0 0 1 3.242 2.402Zm0 0" /><path fill="#0ea5e9" d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137-10.07 0-18.515-3.137-20.754-7.356-.8 2.418-.98 5.184-.98 6.954 0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938 2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41 15.55 15.55 0 0 0-.734-4.735Zm0 0" /><path fill="url(#b)" d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137-10.07 0-18.515-3.137-20.754-7.356-.8 2.418-.98 5.184-.98 6.954 0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938 2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41 15.55 15.55 0 0 0-.734-4.735Zm0 0" /></svg>
+                    <svg className='h-16 w-auto flex-none p-2 mr-4 rounded-md border border-sky-500' fill='#0ea5e9' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><defs><linearGradient id='a' x1='882.997' x2='638.955' y1='27.113' y2='866.902' gradientTransform='scale(.1)' gradientUnits='userSpaceOnUse'><stop offset='0' stopColor='#0ea5e9' /><stop offset='1' stopColor='#0ea5e9' /></linearGradient><linearGradient id='b' x1='1001.68' x2='790.326' y1='652.45' y2='1094.91' gradientTransform='scale(.1)' gradientUnits='userSpaceOnUse'><stop offset='0' stopColor='#0ea5e9' /><stop offset='1' stopColor='#0ea5e9' stopOpacity='0' /></linearGradient></defs>
+                      <path fill='url(#a)' d='M81.504 9.465c.973 1.207 1.469 2.836 2.457 6.09l21.656 71.136a90.079 90.079 0 0 0-25.89-8.765L65.629 30.28a1.833 1.833 0 0 0-3.52.004L48.18 77.902a90.104 90.104 0 0 0-26.003 8.778l21.758-71.14c.996-3.25 1.492-4.876 2.464-6.083a8.023 8.023 0 0 1 3.243-2.398c1.433-.575 3.136-.575 6.535-.575H71.72c3.402 0 5.105 0 6.543.579a7.988 7.988 0 0 1 3.242 2.402Zm0 0' /><path fill='#0ea5e9' d='M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137-10.07 0-18.515-3.137-20.754-7.356-.8 2.418-.98 5.184-.98 6.954 0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938 2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41 15.55 15.55 0 0 0-.734-4.735Zm0 0' /><path fill='url(#b)' d='M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137-10.07 0-18.515-3.137-20.754-7.356-.8 2.418-.98 5.184-.98 6.954 0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938 2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41 15.55 15.55 0 0 0-.734-4.735Zm0 0' /></svg>
                   </a>
                 </li>
                 <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
@@ -238,15 +239,15 @@ const Work = () => {
 
           <div className='mx-auto mt-16 max-w-2xl rounded-lg ring-1 ring-gray-500 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none'>
             <div className='-mt-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center mx-auto max-w-md'>
-              <img src={work3} className='h-full border border-gray-500 rounded-tl-lg rounded-tr-lg  lg:rounded-bl-lg lg:rounded-tr-none' alt='aysen' />
+              <img src={work4} className='h-full border border-gray-500 rounded-tl-lg rounded-tr-lg  lg:rounded-bl-lg lg:rounded-tr-none' alt='aysen' />
             </div>
 
             <div className='p-8 sm:p-8 lg:flex-auto'>
-              <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_4px_rgba(249,250,251,0.9)]'>Región de Aysén</h3>
+              <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_4px_rgba(249,250,251,0.9)]'>HealthNet</h3>
               <p className='mt-6 text-base leading-7 text-gray-400 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
                 <span className='drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
-                  Página web estática creada con Astro, para información sobre la Región de Aysén. El objetivo de
-                  este sitio es difundir información relevante sobre los principales atractivos turísticos existentes de la Región.
+                  Aplicación web que permite a los usuarios agendar horas médicas, además cuenta con un sistema de búsqueda en base a filtros,
+                  que permite realizar consultas mas exactas a la base de datos para encontrar la hora que se desea cancelar.
                 </span>
               </p>
               <ul
@@ -254,13 +255,8 @@ const Work = () => {
                 className='mt-4 ms-4 grid grid-cols-3 gap-3 text-sm leading-6 text-gray-600 sm:grid-cols-12 sm:gap-6'
               >
                 <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
-                  <a href='https://github.com/GerardoEgR/region-aysen-page.git' target='_blank' className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]' rel='noreferrer'>
+                  <a href='https://github.com/GerardoEgR/HealthNetApp.git' target='_blank' className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]' rel='noreferrer'>
                     <BsGithub className='h-8 w-auto flex-none text-gray-500 hover:text-gray-300' />
-                  </a>
-                </li>
-                <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
-                  <a href='https://gerardoegr.github.io/region-aysen-page/' target='_blank' className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]' rel='noreferrer'>
-                    <BsEye className='h-8 w-auto flex-none text-gray-500 hover:text-gray-300' />
                   </a>
                 </li>
               </ul>
@@ -278,21 +274,16 @@ const Work = () => {
               >
                 <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
                   <a className=' drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
-                    <BiLogoHtml5 className='h-16 w-auto flex-none text-sky-500 p-1 mr-4 rounded-md border border-sky-500' />
+                    <BiLogoReact className='h-16 w-auto flex-none text-sky-500 p-1 mr-4 rounded-md border border-sky-500' />
                   </a>
                 </li>
                 <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
                   <a className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
-                    <BiLogoCss3 className='h-16 w-auto flex-none text-sky-500 p-1 mr-4 rounded-md border border-sky-500' />
+                    <svg className='h-16 w-auto flex-none p-2 mr-4 rounded-md border border-sky-500' xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 15 15'><path fill='#0ea5e9' d='m4.5 4.5l.405-.293A.5.5 0 0 0 4 4.5zm3 9.5A6.5 6.5 0 0 1 1 7.5H0A7.5 7.5 0 0 0 7.5 15zM14 7.5A6.5 6.5 0 0 1 7.5 14v1A7.5 7.5 0 0 0 15 7.5zM7.5 1A6.5 6.5 0 0 1 14 7.5h1A7.5 7.5 0 0 0 7.5 0zm0-1A7.5 7.5 0 0 0 0 7.5h1A6.5 6.5 0 0 1 7.5 1zM5 12V4.5H4V12zm-.905-7.207l6.5 9l.81-.586l-6.5-9zM10 4v6h1V4z' /></svg>
                   </a>
                 </li>
                 <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
                   <a className=' drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
-                    <BiLogoBootstrap className='h-16 w-auto flex-none text-sky-500 p-1 mr-4 rounded-md border border-sky-500' />
-                  </a>
-                </li>
-                <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
-                  <a className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
                     <BiLogoJavascript className='h-16 w-auto flex-none text-sky-500 p-1 mr-4 rounded-md border border-sky-500' />
                   </a>
                 </li>
@@ -301,12 +292,20 @@ const Work = () => {
                     <BiLogoTailwindCss className='h-16 w-auto flex-none text-sky-500 p-1 mr-4 rounded-md border border-sky-500' />
                   </a>
                 </li>
+                <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
+                  <a className='drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
+                    <svg className='h-16 w-auto flex-none text-sky-500 p-1 mr-4 rounded-md border border-sky-500' xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 24 24'><path fill='currentColor' d='M21.807 18.285L13.553.757a1.32 1.32 0 0 0-1.129-.755a1.31 1.31 0 0 0-1.206.626l-8.952 14.5a1.36 1.36 0 0 0 .016 1.455l4.376 6.778a1.41 1.41 0 0 0 1.58.581l12.703-3.757c.389-.115.707-.39.873-.755s.164-.783-.007-1.145m-1.848.752L9.18 22.224a.452.452 0 0 1-.575-.52l3.85-18.438c.072-.345.549-.4.699-.08l7.129 15.138a.515.515 0 0 1-.325.713' /></svg>
+                  </a>
+                </li>
+                <li className='flex gap-x-3 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
+                  <a className=' drop-shadow-[2px_2px_2px_rgba(0,0,0,0.9)]'>
+                    <BiLogoPostgresql className='h-16 w-auto flex-none text-sky-500 p-1 mr-4 rounded-md border border-sky-500' />
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
-
         </div>
-
       </div>
     </>
   )

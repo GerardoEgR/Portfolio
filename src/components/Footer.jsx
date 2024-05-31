@@ -2,7 +2,6 @@ import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
-
     <footer className='bg-white dark:bg-slate-800 border-2 border-slate-800  border-t-indigo-500'>
       <div className='w-full max-w-screen-xl mx-auto p-4 md:py-8 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
         <div className='sm:flex sm:items-center sm:justify-between'>
@@ -32,7 +31,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-
   )
 }
 
