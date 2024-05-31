@@ -3,7 +3,7 @@ import { BsEye, BsGithub } from 'react-icons/bs'
 import work1 from '../assets/work-1.jpeg'
 import work2 from '../assets/work-2.jpeg'
 import work3 from '../assets/work-3.jpeg'
-import work4 from '../assets/work-4.jpeg'
+import work4 from '../assets/work-4.png'
 
 
 const Work = () => {
