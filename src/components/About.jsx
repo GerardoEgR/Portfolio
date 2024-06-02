@@ -24,12 +24,12 @@ const About = () => {
             </p>
             <div className='mx-auto max-w-4xl sm:text-start py-8'>
               <div className='mt-4 flex items-center gap-x-4'>
-                <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_8px_rgba(14,165,233,0.4)]'>
+                <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_8px_rgba(14,165,233,0.4)] ms-5'>
                   <span className='drop-shadow-[1px_1px_3px_rgba(246,250,251,0.9)]'>
                     Tech Stack
                   </span>
                 </h3>
-                <div className='h-px flex-auto bg-gray-400 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
+                <div className='h-px me-5 flex-auto bg-gray-400 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
               </div>
               <p className='m-5 text-lg leading-8 text-gray-400'>
                 <ul
