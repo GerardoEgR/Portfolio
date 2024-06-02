@@ -129,7 +129,7 @@ const Work = () => {
                     Tecnologías utilizadas
                   </span>
                 </h4>
-                <div className='h-px flex-auto bg-gray-500 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
+                <div className='h-px flex-auto bg-gray-400 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
               </div>
               <ul
                 role='list'
@@ -199,7 +199,7 @@ const Work = () => {
                     Tecnologías utilizadas
                   </span>
                 </h4>
-                <div className='h-px flex-auto bg-gray-500 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
+                <div className='h-px flex-auto bg-gray-400 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
               </div>
               <ul
                 role='list'
@@ -264,7 +264,7 @@ const Work = () => {
                     Tecnologías utilizadas
                   </span>
                 </h4>
-                <div className='h-px flex-auto bg-gray-500 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
+                <div className='h-px flex-auto bg-gray-400 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
               </div>
               <ul
                 role='list'
