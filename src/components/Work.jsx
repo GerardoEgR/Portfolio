@@ -9,11 +9,9 @@ import work4 from '../assets/work-4.png'
 const Work = () => {
   return (
     <>
-      <div className='bg-gradient-to-tl from-blue-900 via-slate-700 to-indigo-900 w-full h-lg min-h-[75vh] lg:min-h-[68vh] pb-20' id='work'>
+      <div className='bg-gradient-to-tl from-indigo-950 via-blue-900 to-blue-950 w-full h-lg min-h-[75vh] lg:min-h-[68vh] pb-20' id='work'>
         <div className='flex-1 text-center lg:text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)] pb-5'>
-          <h1 className='lg:text-center text-[50px] font-semibold lg:text-[60px] text-slate-300 mb-12 drop-shadow-[5px_2px_1px_rgba(0,0,0,0.9)]'>Proyectos
-            <span className='text-sky-500 dark:text-sky-400'>.</span>
-          </h1>
+          <h1 className='lg:text-center text-[50px] font-semibold lg:text-[60px] text-slate-300 mb-12 drop-shadow-[5px_2px_1px_rgba(0,0,0,0.9)]'>Proyectos</h1>
         </div>
 
         <div className='mx-auto max-w-7xl px-6 lg:px-8'>
@@ -21,7 +19,7 @@ const Work = () => {
             <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl drop-shadow-[1px_1px_5px_rgba(249,250,251,0.9)]'>
               ¡Bienvenido a la sección de proyectos de mi portafolio!
             </h2>
-            <p className='mt-5 text-lg leading-8 text-gray-400 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+            <p className='mt-5 text-lg leading-8 text-gray-300 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
               <span className='drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>Aquí encontrarás una selección de algunos de los proyectos en los que he trabajado y que representan mi trayectoria como desarrollador Full Stack.</span>
             </p>
           </div>
@@ -32,7 +30,7 @@ const Work = () => {
 
             <div className='p-8 sm:p-8 lg:flex-auto'>
               <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_4px_rgba(249,250,251,0.9)]'>MoviesPedia</h3>
-              <p className='mt-6 text-base leading-7 text-gray-400 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+              <p className='mt-6 text-base leading-7 text-gray-300 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
                 <span className='drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
                   Aplicación web que permite a los usuarios buscar películas, registrarse y/o iniciar sesión.
                   Una vez autenticados, pueden crear, editar y eliminar comentarios sobre las películas y/o agregarlas a una lista de favoritos,
@@ -55,7 +53,7 @@ const Work = () => {
                     Tecnologías utilizadas
                   </span>
                 </h4>
-                <div className='h-px flex-auto bg-gray-500 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
+                <div className='h-px flex-auto bg-gray-400 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
               </div>
               <ul
                 role='list'
@@ -104,7 +102,7 @@ const Work = () => {
 
             <div className='p-8 sm:p-8 lg:flex-auto'>
               <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_4px_rgba(249,250,251,0.9)]'>Effeta</h3>
-              <p className='mt-6 text-base leading-7 text-gray-400 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+              <p className='mt-6 text-base leading-7 text-gray-300 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
                 <span className='drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
                   Página web estática creada con Astro, para proporcionar información sobre la Corporación Chilena de Padres y
                   Amigos de Personas Sordas (CCPAS). El objetivo principal es difundir información relevante sobre la organización.
@@ -174,7 +172,7 @@ const Work = () => {
 
             <div className='p-8 sm:p-8 lg:flex-auto'>
               <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_4px_rgba(249,250,251,0.9)]'>Región de Aysén</h3>
-              <p className='mt-6 text-base leading-7 text-gray-400 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+              <p className='mt-6 text-base leading-7 text-gray-300 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
                 <span className='drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
                   Página web estática creada con Astro, para información sobre la Región de Aysén. El objetivo de
                   este sitio es difundir información relevante sobre los principales atractivos turísticos existentes de la Región.
@@ -244,7 +242,7 @@ const Work = () => {
 
             <div className='p-8 sm:p-8 lg:flex-auto'>
               <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_4px_rgba(249,250,251,0.9)]'>HealthNet</h3>
-              <p className='mt-6 text-base leading-7 text-gray-400 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+              <p className='mt-6 text-base leading-7 text-gray-300 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
                 <span className='drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
                   Aplicación web que permite a los usuarios agendar horas médicas, además cuenta con un sistema de búsqueda en base a filtros,
                   que permite realizar consultas mas exactas a la base de datos para encontrar la hora que se desea cancelar.

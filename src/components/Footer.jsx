@@ -1,20 +1,27 @@
 import { Link } from 'react-scroll'
+import LogoWhite from '../assets/Logo-white.png'
 
 const Footer = () => {
   return (
     <footer className='bg-white dark:bg-slate-800 border-2 border-slate-800  border-t-indigo-500'>
       <div className='w-full max-w-screen-xl mx-auto p-4 md:py-8 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
-        <div className='sm:flex sm:items-center sm:justify-between'>
-          <ul className='flex mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
-            <Link to='header' className='mr-4 hover:underline md:mr-6 cursor-pointer'>Home</Link>
-            <Link to='about' className='mr-4 hover:underline md:mr-6 cursor-pointer'>Sobre Mi</Link>
-            <Link to='services' className='mr-4 hover:underline md:mr-6 cursor-pointer'>Mis Servicios</Link>
-            <Link to='work' className='mr-4 hover:underline md:mr-6 cursor-pointer'>Proyectos</Link>
-          </ul>
+        <div className='sm:flex mt-4 space-x-5 sm:justify-between sm:mt-0'>
+          <span className='flex text-sm text-gray-500 sm:text-center dark:text-gray-400 items-center space-x-2 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+            <img src={LogoWhite} className='h-12 border border-gray-500 rounded-lg p-1 mr-3' alt='Gerardo' />
+            Gerardo Gallardo<a className='underline drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>Web Developer</a>.
+          </span>
+          <div className='flex sm:items-center sm:justify-between mt-4 space-x-5 sm:mt-0'>
+            <ul className='flex mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+              <Link to='header' className='mr-4 hover:underline md:mr-6 cursor-pointer'>Home</Link>
+              <Link to='about' className='mr-4 hover:underline md:mr-6 cursor-pointer'>Sobre Mi</Link>
+              <Link to='services' className='mr-4 hover:underline md:mr-6 cursor-pointer'>Mis Servicios</Link>
+              <Link to='work' className='mr-4 hover:underline md:mr-6 cursor-pointer'>Proyectos</Link>
+            </ul>
+          </div>
         </div>
         <div className='my-6 h-px w-full mt-4 bg-gradient-to-r from-transparent via-indigo-500 to-transparent lg:my-8' />
         <div className='sm:flex sm:items-center sm:justify-between drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
-          <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>Copyright © 2024 <a className='hover:underline'>Gerardo Gallardo Portfolio</a>.
+          <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>Copyright © 2024 <a className='hover:underline'>Portfolio</a>.
           </span>
           <div className='flex mt-4 space-x-5 sm:justify-center sm:mt-0'>
             <a href='https://www.linkedin.com/in/gerardo-gallardo-rodr%C3%ADguez-396193171/' target='_blank' className='text-gray-500 hover:text-gray-900 dark:hover:text-white' rel="noreferrer">

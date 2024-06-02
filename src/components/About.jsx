@@ -4,34 +4,32 @@ import image from '../assets/image2.png'
 const About = () => {
   return (
     <>
-      <div className='bg-gradient-to-tl from-blue-900 via-slate-700 to-indigo-900 w-full h-xl min-h-[75vh] lg:min-h-[68vh]' id='about'>
+      <div className='bg-gradient-to-tl from-indigo-950 via-blue-900 to-blue-950 w-full h-xl min-h-[75vh] lg:min-h-[68vh]' id='about'>
         <div className='text-center flex flex-col xl:text-left container mx-auto lg:flex-row items-center'>
           <div className='flex flex-col mt-16 lg:mt-32 xl:mr-20 drop-shadow-[2px_1px_20px_rgba(0,0,0,0.9)]'>
             <img src={image} className='xl:ml-20 rounded-2xl border-solid border-2 border-slate-600 h-[250px] xl:h-[450px] drop-shadow-[1px_1px_10px_rgba(0,0,0,0.9)]' alt='' />
           </div>
           <div className='text-center lg:text-left mt-10 xl:mt-20 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
-            <h1 className='lg:text-center text-[50px] font-semibold lg:text-[60px] text-slate-300 mb-12 drop-shadow-[5px_2px_1px_rgba(0,0,0,0.9)]'>Sobre Mi
-              <span className='text-sky-500 dark:text-sky-400'>.</span>
-            </h1>
-            <p className='mb-4 text-lg leading-6 text-slate-400 max-w-4xl mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+            <h1 className='lg:text-center text-[50px] font-semibold lg:text-[60px] text-slate-300 mb-12 drop-shadow-[5px_2px_1px_rgba(0,0,0,0.9)]'>Sobre Mi</h1>
+            <p className='mb-4 text-lg leading-6 text-slate-300 max-w-4xl mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
               Soy ingeniero informático multimedia con experiencia en el desarrollo Full Stack de aplicaciones web. Mi enfoque se basa en la
               búsqueda constante de mejora y aprendizaje. Disfruto de los desafíos técnicos.
             </p>
-            <p className='mb-4 text-lg leading-6 text-slate-400 max-w-4xl mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+            <p className='mb-4 text-lg leading-6 text-slate-300 max-w-4xl mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
               Me considero una persona comprometida, responsable y empática que puede establecer confianza y trabajar colaborativamente hacia objetivos en común.
             </p>
-            <p className='mb-4 text-lg leading-6 text-slate-400 max-w-4xl mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+            <p className='mb-4 text-lg leading-6 text-slate-300 max-w-4xl mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
               Además, poseo flexibilidad y capacidad para adaptarme a diferentes tareas y entornos laborales, lo que me permite integrarme sin
               problemas a equipos multidisciplinarios.
             </p>
             <div className='mx-auto max-w-4xl sm:text-start py-8'>
               <div className='mt-4 flex items-center gap-x-4'>
-                <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_8px_rgba(248,113,113,0.5)]'>
-                  <span className='drop-shadow-[1px_1px_3px_rgba(249,250,251,0.9)]'>
+                <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_8px_rgba(14,165,233,0.4)]'>
+                  <span className='drop-shadow-[1px_1px_3px_rgba(246,250,251,0.9)]'>
                     Tech Stack
                   </span>
                 </h3>
-                <div className='h-px flex-auto bg-gray-500 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
+                <div className='h-px flex-auto bg-gray-400 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]' />
               </div>
               <p className='m-5 text-lg leading-8 text-gray-400'>
                 <ul
@@ -96,8 +94,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='w-full h-14 lg:h-44 bg-gradient-to-bl from-blue-900 via-slate-700 to-slate-700 '></div>
-      <div className='w-full h-14 lg:h-44 bg-gradient-to-bl from-slate-700  via-slate-700 to-indigo-900'></div>
+      <div className='w-full h-14 lg:h-20 bg-gradient-to-l from-indigo-950 to-blue-900'></div>
+      <div className='w-full h-14 lg:h-20 bg-gradient-to-tr from-blue-950  via-blue-900 to-indigo-950'></div>
     </>
   )
 }
