@@ -19,7 +19,7 @@ const Work = () => {
             <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl drop-shadow-[1px_1px_5px_rgba(249,250,251,0.9)]'>
               ¡Bienvenido a la sección de proyectos de mi portafolio!
             </h2>
-            <p className='mt-5 text-lg leading-8 text-gray-300 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+            <p className='mt-5 text-lg leading-8 max-w-2xl mx-auto text-gray-300 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
               <span className='drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>Aquí encontrarás una selección de algunos de los proyectos en los que he trabajado y que representan mi trayectoria como desarrollador Full Stack.</span>
             </p>
           </div>

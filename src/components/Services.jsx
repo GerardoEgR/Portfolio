@@ -16,9 +16,9 @@ const Services = () => {
 
               <div className='mx-auto flex w-full  max-w-xs flex-col gap-y-4 border border-slate-400 p-8 rounded-md items-center'>
                 <div className='h-px w-full m-4 bg-gradient-to-r from-transparent via-sky-500 to-transparent' />
-                <dt className='text-lg leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
-                  Paginas Web Estáticas
-                  <p className='text-sm leading-5 text-gray-300 mt-4'>
+                <dt className='text-2xl leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
+                  Páginas web estáticas
+                  <p className='text-sm leading-6 text-gray-300 mt-4'>
                     Ideales para mostrar información básica sobre empresas, productos o servicios, con cinco secciones o páginas
                     para distribuir dicha información (Inicio, Nosotros, Servicios, Galería, Contacto).
                   </p>
@@ -32,9 +32,9 @@ const Services = () => {
 
               <div className='mx-auto flex w-full max-w-xs flex-col gap-y-4 border border-slate-400 p-8 rounded-md items-center'>
                 <div className='h-px w-full m-4 bg-gradient-to-r from-transparent via-sky-500 to-transparent' />
-                <dt className='text-lg leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
-                  Paginas Web Dinámicas
-                  <p className='text-sm leading-5 text-gray-300 mt-4'>
+                <dt className='text-2xl leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
+                  Páginas web dinámicas
+                  <p className='text-sm leading-6 text-gray-300 mt-4'>
                     Ideales para mostrar contenido que debe ser modificado con regularidad.
                     A menudo incluyen funcionalidades interactivas, como formularios de contacto, blogs, foros o tiendas en línea.
                   </p>
@@ -48,9 +48,9 @@ const Services = () => {
 
               <div className='mx-auto flex w-full max-w-xs flex-col gap-y-4 border border-slate-400 p-8 rounded-md items-center'>
                 <div className='h-px w-full m-4 bg-gradient-to-r from-transparent via-sky-500 to-transparent' />
-                <dt className='text-lg leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
+                <dt className='text-2xl leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
                   Backend a medida
-                  <p className='text-sm leading-5 text-gray-300 mt-4'>
+                  <p className='text-sm leading-6 text-gray-300 mt-4'>
                     Desarrollo de la lógica del lado del servidor utilizando el framework Spring Boot de Java. Esta tecnología es ideal
                     para construir aplicaciones web robustas y escalables, proporcionando un backend seguro y eficiente.
                   </p>
@@ -64,10 +64,10 @@ const Services = () => {
 
               <div className='mx-auto flex w-full max-w-xs flex-col gap-y-4 border border-slate-400 p-8 rounded-md items-center'>
                 <div className='h-px w-full m-4 bg-gradient-to-r from-transparent via-sky-500 to-transparent' />
-                <dt className='text-lg leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
-                  Integración de Base de datos
-                  <p className='text-sm leading-5 text-gray-300 mt-4'>
-                    Integración de sistemas de gestión de bases de datos relacionales, como es MySQL o PostgreSQL.
+                <dt className='text-2xl leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
+                  Integración de base de datos
+                  <p className='text-sm leading-6 text-gray-300 mt-4'>
+                    Integración de bases de datos relacionales, como es MySQL o PostgreSQL.
                     Estas bases de datos permiten almacenar y gestionar de manera eficiente grandes cantidades de datos.
                   </p>
                 </dt>
@@ -81,11 +81,10 @@ const Services = () => {
 
               <div className='mx-auto flex w-full max-w-xs flex-col gap-y-4 border border-slate-400 p-8 rounded-md items-center'>
                 <div className='h-px w-full m-4 bg-gradient-to-r from-transparent via-sky-500 to-transparent' />
-                <dt className='text-lg leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
+                <dt className='text-2xl leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
                   Desarrollo Bajo Demanda
-                  <p className='text-sm leading-5 text-gray-300 mt-4'>
-                    Creación de los proyectos utilizando React, una biblioteca de JavaScript ampliamente utilizada
-                    para construir interfaces, la cual permite mantener una experiencia de usuario fluida.
+                  <p className='text-sm leading-6 text-gray-300 mt-4'>
+                    Creación de los proyectos utilizando JavaScript o React, el cual es una biblioteca de JavaScript ampliamente utilizada para construir interfaces que permite mantener una experiencia de usuario fluida.
                   </p>
                 </dt>
                 <dd className='order-first text-3xl font-semibold tracking-tight text-gray-300 sm:text-5xl'>
@@ -97,9 +96,9 @@ const Services = () => {
 
               <div className='mx-auto flex w-full max-w-xs flex-col gap-y-4 border border-slate-400 p-8 rounded-md items-center'>
                 <div className='h-px w-full m-4 bg-gradient-to-r from-transparent via-sky-500 to-transparent' />
-                <dt className='text-lg leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
+                <dt className='text-2xl leading-7 text-gray-300 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
                   Desarrollo Responsive Design
-                  <p className='text-sm leading-5 text-gray-300 mt-4'>
+                  <p className='text-sm leading-6 text-gray-300 mt-4'>
                     Diseño de sitios web que se adaptan y responden de manera óptima a diferentes tamaños de pantalla y dispositivos.
                     Garantizando así una experiencia de usuario consistente y atractiva en cualquier dispositivo.
                   </p>

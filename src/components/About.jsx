@@ -10,19 +10,21 @@ const About = () => {
             <img src={image} className='xl:ml-20 rounded-2xl border-solid border-2 border-slate-600 h-[250px] xl:h-[450px] drop-shadow-[1px_1px_10px_rgba(0,0,0,0.9)]' alt='' />
           </div>
           <div className='text-center lg:text-left mt-10 xl:mt-20 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
-            <h1 className='lg:text-center text-[50px] font-semibold lg:text-[60px] text-slate-300 mb-12 drop-shadow-[5px_2px_1px_rgba(0,0,0,0.9)]'>Sobre Mi</h1>
-            <p className='mb-4 text-lg leading-6 text-slate-300 max-w-4xl mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+            <h1 className='lg:text-left text-[50px] font-semibold lg:text-[60px] text-slate-300 mb-10 drop-shadow-[5px_2px_1px_rgba(0,0,0,0.9)]'>Sobre Mí</h1>
+            <p className='mb-4 text-md text-left leading-6 lg:text-2xl lg:leading-8 text-slate-300 max-w-5xl mx-4 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
               Soy ingeniero informático multimedia con experiencia en el desarrollo Full Stack de aplicaciones web. Mi enfoque se basa en la
-              búsqueda constante de mejora y aprendizaje. Disfruto de los desafíos técnicos.
+              búsqueda constante de mejora y aprendizaje.
             </p>
-            <p className='mb-4 text-lg leading-6 text-slate-300 max-w-4xl mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
-              Me considero una persona comprometida, responsable y empática que puede establecer confianza y trabajar colaborativamente hacia objetivos en común.
-            </p>
-            <p className='mb-4 text-lg leading-6 text-slate-300 max-w-4xl mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
-              Además, poseo flexibilidad y capacidad para adaptarme a diferentes tareas y entornos laborales, lo que me permite integrarme sin
-              problemas a equipos multidisciplinarios.
-            </p>
-            <div className='mx-auto max-w-4xl sm:text-start py-8'>
+            <div className='sm:flex lg:mt-10'>
+              <p className='mb-4 text-md leading-6 text-slate-300 max-w-md mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+                Me considero una persona comprometida, responsable y empática que puede establecer confianza y trabajar colaborativamente hacia objetivos en común.
+              </p>
+              <p className='mb-4 text-md leading-6 text-slate-300 max-w-md mx-4 text-left drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
+                Además, poseo flexibilidad y capacidad para adaptarme a diferentes tareas y entornos laborales, lo que me permite integrarme sin
+                problemas a equipos multidisciplinarios.
+              </p>
+            </div>
+            <div className='mx-auto max-w-5xl sm:text-start py-8'>
               <div className='mt-4 flex items-center gap-x-4'>
                 <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_8px_rgba(14,165,233,0.4)] ms-5'>
                   <span className='drop-shadow-[1px_1px_3px_rgba(246,250,251,0.9)]'>
