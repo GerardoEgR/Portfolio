@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
           </div>
           <span className='text-sm mt-3 text-gray-500 sm:text-center dark:text-gray-400'>
-            Copyright © 2024 <a className='hover:underline'>Portfolio</a>.
+            2024 <a className='hover:underline'>Portfolio</a>.
           </span>
         </div>
       </div>
