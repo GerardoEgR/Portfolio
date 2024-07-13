@@ -1,4 +1,13 @@
-import { BiLogoBootstrap, BiLogoCss3, BiLogoHtml5, BiLogoJavascript, BiLogoPostgresql, BiLogoReact, BiLogoSpringBoot, BiLogoTailwindCss } from 'react-icons/bi'
+import {
+  BiLogoBootstrap,
+  BiLogoCss3,
+  BiLogoHtml5,
+  BiLogoJavascript,
+  // BiLogoPostgresql,
+  BiLogoReact,
+  BiLogoSpringBoot,
+  BiLogoTailwindCss
+} from 'react-icons/bi'
 import { BsEye, BsGithub } from 'react-icons/bs'
 import work1 from '../assets/work-1.jpeg'
 import work2 from '../assets/work-2.jpeg'
@@ -266,7 +275,7 @@ const Work = () => {
               <img src={work4} className='h-full border border-gray-500 rounded-tl-lg rounded-tr-lg  lg:rounded-bl-lg lg:rounded-tr-none' alt='aysen' />
             </div>
 
-            <div className='p-8 sm:p-8 lg:flex-auto'>
+            {/* <div className='p-8 sm:p-8 lg:flex-auto'>
               <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_4px_rgba(249,250,251,0.9)]'>HealthNet</h3>
               <p className='mt-6 text-base leading-7 text-gray-300 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
                 <span className='drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
@@ -339,7 +348,7 @@ const Work = () => {
                   </Tooltip>
                 </li>
               </ul>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
