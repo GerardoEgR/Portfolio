@@ -270,12 +270,12 @@ const Work = () => {
             </div>
           </div>
 
-          <div className='mx-auto mt-16 max-w-2xl rounded-lg ring-1 ring-gray-500 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none'>
+          {/* <div className='mx-auto mt-16 max-w-2xl rounded-lg ring-1 ring-gray-500 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none'>
             <div className='-mt-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center mx-auto max-w-md'>
               <img src={work4} className='h-full border border-gray-500 rounded-tl-lg rounded-tr-lg  lg:rounded-bl-lg lg:rounded-tr-none' alt='aysen' />
             </div>
 
-            {/* <div className='p-8 sm:p-8 lg:flex-auto'>
+            <div className='p-8 sm:p-8 lg:flex-auto'>
               <h3 className='text-2xl font-bold tracking-tight text-gray-900 drop-shadow-[1px_1px_4px_rgba(249,250,251,0.9)]'>HealthNet</h3>
               <p className='mt-6 text-base leading-7 text-gray-300 drop-shadow-[2px_1px_1px_rgba(0,0,0,0.9)]'>
                 <span className='drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)]'>
@@ -348,8 +348,8 @@ const Work = () => {
                   </Tooltip>
                 </li>
               </ul>
-            </div>*/}
-          </div>
+            </div>
+          </div>*/}
         </div>
       </div>
     </>
